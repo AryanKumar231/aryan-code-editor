@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aryan Code Editor</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="code_area">
+        <div class="html_box">
+            <div class="head">
+                <h6>HTML</h6>
+                <i class="fa-solid fa-up-right-and-down-left-from-center" id="h_open"></i>
+                <i class="fa-solid fa-down-left-and-up-right-to-center" id="h_close"></i>
+            </div>
+            
+            <textarea id="html" placeholder="<h1>hi</h1>"></textarea>
+        </div>
+        <div class="css_box">
+            <div class="head">
+                <h6>CSS</h6>
+                <i class="fa-solid fa-up-right-and-down-left-from-center"  id="c_open"></i>
+                <i class="fa-solid fa-down-left-and-up-right-to-center" id="c_close"></i>
+
+            </div>
+            <textarea id="css" placeholder="h1{color:red;}"></textarea>
+        </div>
+        <div class="js_box">
+            <div class="head">
+                <h6>JS</h6>
+                <i class="fa-solid fa-up-right-and-down-left-from-center"  id="j_open"></i>
+                <i class="fa-solid fa-down-left-and-up-right-to-center" id="j_close"></i>
+
+            </div>
+            <textarea id="js" placeholder="document.getElementByTagNames('h1')"></textarea>
+
+        </div>
+    </div>
+    <div class="output_area">
+        <button id="newtab">Open in NewTab</button>
+        <iframe id="output_code" frameborder="0"></iframe>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
