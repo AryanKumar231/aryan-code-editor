@@ -38,14 +38,5 @@ No installation is required. Just clone or download the repository and open `ind
 - **Real-time Code Rendering**: The JavaScript code captures the input from the HTML, CSS, and JS panels, and dynamically injects the combined code into an iframe for real-time preview.
 - **Panel Controls**: The JavaScript controls the expansion and collapsing of the code panels, allowing you to focus on the section you are currently working on.
 
-## Example Usage
-**html**
-<h1>This is html sample.</h1>
-
-**css**
-h1{
-  color:red;
-}
-
-**js**
-//this is javascript comment
+## Live Demo
+click here to see the live demo https://aryankumar231.github.io/aryan-code-editor/
